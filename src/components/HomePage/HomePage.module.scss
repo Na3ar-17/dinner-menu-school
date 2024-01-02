@@ -1,0 +1,24 @@
+.container {
+  color: #504e63;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .header {
+    h1 {
+      font-size: 45px;
+      font-weight: 700;
+      color: #a88661;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    .header {
+      h1 {
+        font-size: 30px;
+      }
+    }
+  }
+}
